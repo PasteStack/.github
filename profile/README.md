@@ -130,3 +130,12 @@ Jinja2 renderer + Flask/FastAPI integration.
 
 ## 🧩 How Everything Fits Together
 
+paste ← foundational JS utilities
+paste-elements ← JS/SCSS UI components
+↓
+paste-assetgraph ← builds bundles + manifest.json
+↓
+paste-surface-<runtime> ← templates, ViewModels, asset injection
+↓
+Your App ← consistent HTML & assets across languages
+
