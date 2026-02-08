@@ -171,3 +171,73 @@ This enables decoupled releases, multiple surface implementations, and site-leve
 ---
 
 ## 🧩 How Everything Fits Together
+
+paste ← foundational JS utilities (v2.0.0)
+
+paste-elements ← JS/SCSS UI components, YUI-style modules (v0.1.0) ↓ paste-assetgraph ← Rust binary: builds bundles + manifest.json (v0.1.0) ↓ paste-surface- ← templates, ViewModels, asset injection (v0.1.0) ↓ Your App ← consistent HTML & assets across languages
+
+
+This gives teams consistent, modern tooling regardless of backend language.
+
+---
+
+## 🤔 Why PasteStack vs Full Frameworks?
+| Aspect | Full Frameworks (Play, Next, Django) | PasteStack |
+|--------|--------------------------------------|------------|
+| **Scope** | Own your whole app | Asset pipeline + templates only |
+| **Runtime** | Framework-specific | Works with *any* HTTP server |
+| **Lock-in** | Routes, controllers, forms tied to framework | Portable ViewModels + templates |
+| **Asset Pipeline** | Plugin-based (sbt-web, webpack) | Rust binary, no JVM/Node for builds |
+| **Multi-language** | Single language | Scala, Python, basic HTML |
+| **Size** | Heavy (~100+ deps) | Minimal (just what you need) |
+
+**PasteStack is a library, not a framework.**
+
+- Use it with Pekko HTTP, http4s, FastAPI, Flask, or plain HTML
+- Same ViewModels and templates work across runtimes
+- Asset pipeline runs independently (fast CI, no JVM needed)
+- Original paste patterns: JAM URLs, `paste.define`/`paste.require`, multi-CDN support
+
+**When to use a full framework instead:**
+- You want forms, CSRF, sessions, i18n out of the box
+- You're building a traditional MVC app
+- You don't need multi-runtime portability
+
+---
+
+## 🌐 Ideal Use Cases
+PasteStack is perfect for:
+
+- internal tools and enterprise applications  
+- server-rendered architectures  
+- organizations with mixed-language stacks  
+- teams needing deterministic, standardized asset loading  
+- performance-sensitive applications  
+- UI modernization efforts  
+
+---
+
+## 🤝 Contributing
+PasteStack is organized as a multi-repo ecosystem.  
+Contributions are welcome in any area:
+
+- JS utilities (paste)  
+- UI components (paste-elements)  
+- asset pipeline (paste-assetgraph)  
+- renderer implementations  
+- documentation & examples  
+- language integrations  
+- tooling & testing  
+
+Open a PR or issue in the relevant repository.
+
+---
+
+## 📄 License
+Unless otherwise noted, all PasteStack components are **MIT Licensed**.
+
+---
+
+PasteStack is the evolution of a decade-long idea:  
+**simple tools, sharp boundaries, and performance-first design**—  
+now scaled into a full, modern front-end platform.
