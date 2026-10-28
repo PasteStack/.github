@@ -11,14 +11,13 @@ PasteStack carries that spirit forward—speed, simplicity, modularity—while e
 
 | Project | Version | Description |
 |---------|---------|-------------|
-| **paste** | `v2.0.0` | ES modules, Mocha/Chai, UI widgets moved to paste-elements |
-| **paste-elements** | `v0.1.0` | YUI-style module restructure, heroscroll, stickynav, smoothscroll |
-| **paste-surface-scala** | `v0.1.0` | Hero, Address components, webbase/jambase layouts, view models |
-| **paste-surface-spec** | `v0.1.0` | OpenAPI spec, BDD features, convention documentation |
-| **paste-assetgraph** | `v0.1.0` | Rust pipeline, pluggable storage, Pekko runtime, JAM Spec v1.1 |
-| **paste-devkit** | `v0.1.0` | Architecture docs, dev setup guide |
-| **paste-webjar** | `v0.1.0` | Maven WebJar packaging for paste core |
-| **paste-elements-webjar** | `v0.1.0` | Maven WebJar packaging for paste-elements |
+| **paste** | `v2.1.1` | ES modules, Mocha/Chai, UI widgets moved to paste-elements |
+| **paste-elements** | `v0.7.1` | YUI-style module restructure, heroscroll, stickynav, smoothscroll |
+| **paste-surface-scala** | `v0.10.1` | Hero, Address components, webbase/jambase layouts, view models |
+| **paste-surface-spec** | `v0.10.1` | OpenAPI spec, BDD features, convention documentation |
+| **paste-assetgraph** | `v0.4.2` | Rust pipeline, pluggable storage, Pekko runtime, JAM Spec v1.1 |
+| **paste-webjar** | `v2.1.1` | Maven WebJar packaging for paste core |
+| **paste-elements-webjar** | `v0.7.1` | Maven WebJar packaging for paste-elements |
 
 ---
 
@@ -146,10 +145,7 @@ Jinja2 renderer + Flask/FastAPI integration.
 ---
 
 ### 5. **DevKit & Packaging**
-**`paste-devkit`** — `v0.1.0`  
-Architecture documentation, dev setup guides, and the PasteStack layer diagram.
-
-**`paste-webjar`** — `v0.1.0`  
+**`paste-webjar`** — `v2.1.1`  
 Maven WebJar packaging for paste core JS, for use in JVM build systems.
 
 ---
@@ -234,7 +230,7 @@ Open a PR or issue in the relevant repository.
 ---
 
 ## 📄 License
-Unless otherwise noted, all PasteStack components are **MIT Licensed**.
+Unless otherwise noted, all PasteStack components are licensed under the **Apache License 2.0**.
 
 ---
 
