@@ -12,13 +12,13 @@ PasteStack is maintained by [Tomshley](https://github.com/tomshley) and runs [to
 
 | Project | What it does | Latest |
 |---|---|---|
-| [paste-surface-scala](https://github.com/PasteStack/paste-surface-scala) | Server-built pages: Twirl layouts and shared components, served with Pekko HTTP. | ![latest](https://img.shields.io/github/v/tag/PasteStack/paste-surface-scala?sort=semver&label=&color=1e1e47) |
-| [paste-surface-spec](https://github.com/PasteStack/paste-surface-spec) | The contract every page renderer follows, written as plain-language tests. | ![latest](https://img.shields.io/github/v/tag/PasteStack/paste-surface-spec?sort=semver&label=&color=1e1e47) |
-| [paste-elements](https://github.com/PasteStack/paste-elements) | Interface components: sticky navigation, scroll spy, forms that send in the background. | ![latest](https://img.shields.io/github/v/tag/PasteStack/paste-elements?sort=semver&label=&color=1e1e47) |
-| [paste-assetgraph](https://github.com/PasteStack/paste-assetgraph) | Builds asset bundles and a manifest, so each page asks only for what it uses. | ![latest](https://img.shields.io/github/v/tag/PasteStack/paste-assetgraph?sort=semver&label=&color=1e1e47) |
-| [paste](https://github.com/PasteStack/paste) | The dependency-free JavaScript toolkit underneath, first written in 2011. | ![latest](https://img.shields.io/github/v/tag/PasteStack/paste?sort=semver&label=&color=1e1e47) |
-| [paste-webjar](https://github.com/PasteStack/paste-webjar) | paste packaged as a Maven WebJar for JVM builds. | ![latest](https://img.shields.io/github/v/tag/PasteStack/paste-webjar?sort=semver&label=&color=1e1e47) |
-| [paste-elements-webjar](https://github.com/PasteStack/paste-elements-webjar) | paste-elements packaged as a Maven WebJar for JVM builds. | ![latest](https://img.shields.io/github/v/tag/PasteStack/paste-elements-webjar?sort=semver&label=&color=1e1e47) |
+| [paste-surface-scala](https://github.com/PasteStack/paste-surface-scala) | Server-built pages: Twirl layouts and shared components, served with Pekko HTTP. | ![latest](https://img.shields.io/github/v/tag/PasteStack/paste-surface-scala?sort=date&label=&color=1e1e47) |
+| [paste-surface-spec](https://github.com/PasteStack/paste-surface-spec) | The contract every page renderer follows, written as plain-language tests. | ![latest](https://img.shields.io/github/v/tag/PasteStack/paste-surface-spec?sort=date&label=&color=1e1e47) |
+| [paste-elements](https://github.com/PasteStack/paste-elements) | Interface components: sticky navigation, scroll spy, forms that send in the background. | ![latest](https://img.shields.io/github/v/tag/PasteStack/paste-elements?sort=date&label=&color=1e1e47) |
+| [paste-assetgraph](https://github.com/PasteStack/paste-assetgraph) | Builds asset bundles and a manifest, so each page asks only for what it uses. | ![latest](https://img.shields.io/github/v/tag/PasteStack/paste-assetgraph?sort=date&label=&color=1e1e47) |
+| [paste](https://github.com/PasteStack/paste) | The dependency-free JavaScript toolkit underneath, first written in 2011. | ![latest](https://img.shields.io/github/v/tag/PasteStack/paste?sort=date&label=&color=1e1e47) |
+| [paste-webjar](https://github.com/PasteStack/paste-webjar) | paste packaged as a Maven WebJar for JVM builds. | ![latest](https://img.shields.io/github/v/tag/PasteStack/paste-webjar?sort=date&label=&color=1e1e47) |
+| [paste-elements-webjar](https://github.com/PasteStack/paste-elements-webjar) | paste-elements packaged as a Maven WebJar for JVM builds. | ![latest](https://img.shields.io/github/v/tag/PasteStack/paste-elements-webjar?sort=date&label=&color=1e1e47) |
 
 ---
 
